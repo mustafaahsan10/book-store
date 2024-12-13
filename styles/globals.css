@@ -2,7 +2,6 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -39,4 +38,41 @@ a {
   html {
     color-scheme: dark;
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body.dark-mode {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body.dark-mode a {
+  color: #3291ff;
+}
+
+body.dark-mode {
+  background-color: var(--background);
+  color: var(--foreground);
 }

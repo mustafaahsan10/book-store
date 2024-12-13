@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nav {
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  body.dark-mode .nav {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+  }
+  
+  body.dark-mode .nav a {
+    color: #ffffff;
+  }
+  body.dark-mode .nav button {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+  }
+  
+  body.dark-mode .nav button:hover {
+    background-color: #444;
+  }
+  .nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 20px 0;
+  }
+  .nav form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .nav button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nav button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
